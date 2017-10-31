@@ -6,10 +6,124 @@
     android:layout_height="match_parent"
     tools:context="com.mycustomview.MainActivity">
 
-<ImageView
-    android:id="@+id/img"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@mipmap/show"
-    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <com.mycustomview.zen.TagView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@color/colorAccent"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="11111"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="11111"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="11111"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="22222222222222222222222"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="33333"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="44"
+
+                android:textSize="16sp" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="555"
+
+                android:textSize="16sp" />
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="22222222222"-->
+            <!--android:textSize="16sp" />-->
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="333333"-->
+            <!--android:textSize="16sp" />-->
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="444444444444"-->
+            <!--android:textSize="16sp" />-->
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="55555555555555555"-->
+            <!--android:textSize="16sp" />-->
+            <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="66666"-->
+            <!--android:textSize="16sp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HelloWord!"
+
+                />
+
+        </com.mycustomview.zen.TagView>
+
+    </LinearLayout>
+
+
+    <!--<com.mycustomview.sample.View1-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--</com.mycustomview.sample.View1>-->
+
+
 </android.support.constraint.ConstraintLayout>
